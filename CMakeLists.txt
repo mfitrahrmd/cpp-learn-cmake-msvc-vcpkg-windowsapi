@@ -4,7 +4,7 @@ project(test_cpp)
 # Enable FetchContent
 include(FetchContent)
 
-# when library also uses library you are using, in this case "spdlog" uses "fmt"
+# when library also uses the same library you are using, in this case "spdlog" uses "fmt"
 # Tell spdlog to use the external fmt before fetching it
 set(SPDLOG_FMT_EXTERNAL ON)
 
